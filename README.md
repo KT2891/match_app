@@ -19,29 +19,28 @@
    ```shell
    git clone https://github.com/your-username/matching-sns-app.git
    ```
-プロジェクトディレクトリに移動します:
-
+2. プロジェクトディレクトリに移動します:
 
    ```shell
    cd matching-sns-app
    ```
-依存関係をインストールします:
+3. 依存関係をインストールします:
 
    ```shell
    bundle install
    ```
-データベースをセットアップします:
+4. データベースをセットアップします:
 
    ```shell
    rake db:create
    rake db:migrate
    ```
-サーバーを起動します:
+5. サーバーを起動します:
 
    ```shell
    rails server
    ```
-ブラウザで http://localhost:3000 にアクセスしてプロジェクトを確認します。
+6. ブラウザで http://localhost:3000 にアクセスしてプロジェクトを確認します。
 
 使用方法
 サインアップまたはログインしてアカウントを作成します。
