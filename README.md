@@ -22,25 +22,25 @@
 プロジェクトディレクトリに移動します:
 
 
-```shell
-cd matching-sns-app
-```
+   ```shell
+   cd matching-sns-app
+   ```
 依存関係をインストールします:
 
-```shell
-bundle install
-```
+   ```shell
+   bundle install
+   ```
 データベースをセットアップします:
 
-```shell
-rake db:create
-rake db:migrate
-```
+   ```shell
+   rake db:create
+   rake db:migrate
+   ```
 サーバーを起動します:
 
-```shell
-rails server
-```
+   ```shell
+   rails server
+   ```
 ブラウザで http://localhost:3000 にアクセスしてプロジェクトを確認します。
 
 使用方法
