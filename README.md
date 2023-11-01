@@ -24,6 +24,7 @@
 
 ```shell
 cd matching-sns-app
+```
 依存関係をインストールします:
 
 ```shell
